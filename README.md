@@ -1,6 +1,6 @@
 # CSC648-spring22-01-team Interpreters 
 
-## Application URL: http://35.163.251.74:3000/
+## Application URL: https://mealsight.ml/
 
 ## To Run Application
 ```cd the-interpreters```
