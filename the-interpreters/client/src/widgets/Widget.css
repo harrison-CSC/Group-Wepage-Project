@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
+
+@font-face {
+    font-family: sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;600&display=swap');
+}
+h1, h2, h3{
+    font-family: sans-serif;
+}
+.center-wrap{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+#home-button{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 0 30px; 
+    font-family: sans-serif;
+    background-color: white;
+    width: 100%;
+    height:auto;
+    z-index: 10000;
+    margin-bottom: 50px;
+}
+
+#nav-title a{
+    text-decoration: none;
+    color: #B6B47D;
+    cursor: pointer;
+}
+
+.nav-list{
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-gap: 40px;
+    list-style: none;
+    align-items: right;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-links:hover a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #B6977D;
+}
+
+.nav-link-profile{
+    height: 18px;
+}
+
+.nav-link-profile:hover{
+    color: #B6977D;
+}
+
+#slider {
+    width: 750px;
+    height: 450px;
+    margin: 10% 5% auto auto;
+}
+.recipe-slider {
+    position: relative;
+    height: 100%;
+  }
+  
+.prompt-buttons button{
+    border-radius: 15px;
+    background-color: #B6B47D;
+    color: white;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.prompt-buttons:hover button{
+    background-color: #bfbd8c;
+    color: white;
+}
+
+#upper-dashboard{
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height: auto;
+  width: 100%;
+}
+
+
+.dash-child{
+ font-size: 25px;
+}
+
+#prompt-text{
+    font-family: sans-serif;
+}
+
+#prompt{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+.create-input{
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid #B6B47D;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.create-input::file-selector-button{
+    border-radius: 10px;
+    border: 1px solid #B6B47D;   
+    padding: 5px 10px;
+}
+
+.create-input-textarea{
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 1px solid #B6B47D;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#user-entry{
+    background-color: #B6977D;
+    border-radius: 30px;
+    color: white;
+    height: 400px;
+}
+
+#sign-up-wrap, #login-wrap{
+   width: 400px;
+}
+
+.form-wrap {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.input-text {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+#user-entry input{
+ margin-right: 30px;
+ margin-top: 5px;
+ border: none;
+ border-radius: 10px;
+ height: 30px;
+}
+
+#user-entry label{
+    padding: 10px;
+}
+
+#user-entry button{
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+}
+
+#profile-wrap{
+    margin-top: 5%;
+}
+
+#meal-plan-search a{
+  text-decoration: none;
+  color: black;
+}
+
+#meal-plan-search li{
+   list-style-type: none;
+}
+
+#meal-plan-search-bar{
+    text-align: left;
+    margin-left: 40px;;
+}
+
+#search-drop-down{
+    text-align: left;
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    width: 200px;
+}
+
+#align-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#create-wrap{
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#create-side1, #create-side2{
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#create-side1{
+    background-image: url(/src/widgets/assets/images/create.png);
+    width: 400px;
+    height: 400px;
+    border-radius: 300px;;
+    background-position: center;
+}
+#create-side2{
+    margin-left: 15%;
+}
+#ingredient-input input{
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #B6B47D;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#mealplanButton{
+    margin: 5px;
+    margin-left: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid #B6B47D;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.smallIngr{
+    width: 100px;
+}
+
+.bigIngr{
+    width: 220px;
+}
+
+.react-datepicker {
+    margin-top: -50%;
+    transform: translate(100%,0);
+}
+
+.meal-delete-button{
+    float: right;
+    background-color:#3174ad;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    float: right;
+}
+
+#recc-container{
+    margin-bottom: 15%;
+}
+
+#recc-img-sizing{
+    width: 300px;
+    height: 300px;
+}
+
+#recc-title-spacing{
+    margin-top: 5%;
+}
+
+#recc-title{
+    width: auto;
+    color: #B6B47D;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
